@@ -1,0 +1,274 @@
+@import url("reset.css");
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('..//fonts/vaizr.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: vazirNormal;
+    direction: rtl;
+}
+
+/* header */
+#header {
+    background: rgb(34, 162, 195);
+    background: linear-gradient(0deg, rgba(34, 162, 195, 1) 0%, rgba(45, 81, 253, 1) 100%);
+    width: 100%;
+    height: 700px;
+    margin-right: 0;
+    display: block;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.logo {
+    float: right;
+    display: inline;
+    padding-top: 5px;
+}
+
+nav {
+    float: left;
+    margin-top: 2%;
+
+}
+
+nav #menuBar .nav-item {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+
+nav #menuBar .nav-img {
+    width: 24px;
+    padding: 5px;
+    padding-right: 0px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+}
+
+nav #menuBar .nav-link {
+    text-align: center;
+    color: floralwhite;
+    padding: 5px 15px 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+nav #menuBar .nav-link:hover {
+    border-bottom: 2px floralwhite solid;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.subscribe .title {
+    text-align: center;
+    font-size: 60px;
+    color: floralwhite;
+    margin-top: 50px;
+}
+
+.subscribe .title3 {
+    text-align: center;
+    margin-top: 30px;
+    color: floralwhite;
+    font-size: 25px;
+}
+
+.subscribe .register {
+    position: relative;
+    right: 25%;
+    margin-top: 40px;
+}
+
+.subscribe .register .email {
+    background-color: floralwhite;
+    width: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.subscribe .register .reg-btn {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: floralwhite;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.subscribe .register .reg-btn:hover {
+    cursor: pointer;
+    box-shadow: -2px -8px 20px -2px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: -2px -8px 20px -2px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: -2px -8px 20px -2px rgba(0, 0, 0, 0.67);
+}
+
+.subscribe .div1 {
+    text-align: center;
+    margin-top: 30px;
+    color: floralwhite;
+}
+
+.subscribe .img1 {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#why-us .container .item1 {
+    margin-top: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 30%;
+    display: inline-block;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#why-us .container .item2 {
+    margin-top: 40px;
+    width: 30%;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#why-us .container .sec-icon {
+    width: 70px;
+    display: block;
+}
+
+#why-us .container .sec-title {
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#why-us .container .sec-text {
+    margin-top: 10px;
+    line-height: 0.5cm;
+}
+
+#customers {
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/ny.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+#customers .container .cus-title {
+    text-align: center;
+    color: floralwhite;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+#customers .container .cus-img {
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+#posts .container .posts-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#posts .container .post-item {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    margin: 20px 15px;
+    position: relative;
+}
+
+#posts .container .post-item .post-img {
+    width: 100%;
+    height: 200px;
+}
+
+#posts .container .post-item .post-link-title {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    box-sizing: border-box;
+    position: absolute;
+    top: 215px;
+    right: 5px;
+}
+
+#posts .container .post-item .post-data .post-date {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#posts .container .post-item .post-data .read-more {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+#posts .container .post-item .post-data .read-more .rm-link {
+    color: #000;
+    text-decoration: none;
+}
+
+#footer .socials {
+    width: 100%;
+    height: 100px;
+    background-color: #e0e0e0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#footer .socials .soc-item {
+    display: inline-block;
+
+}
+
+#footer .socials .soc-icon {
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#footer .socials .soc-icon:hover {
+    opacity: 0.8;
+}
+
+#footer .cr {
+    background-color: #424242;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
